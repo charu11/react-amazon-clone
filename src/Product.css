@@ -9,6 +9,11 @@
   max-height: 400px;
   min-width: 100px;
   background-color: white;
+  z-index: 1;
+}
+
+.product__rating {
+  display: flex;
 }
 
 .product > img {
@@ -23,4 +28,14 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
 }
