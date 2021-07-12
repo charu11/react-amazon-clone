@@ -20,11 +20,14 @@ function Header() {
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />
       </div>
+
       <div className="header__nav">
-        <div className="header__option">
-          <span className="header__optionOne">Hello</span>
-          <span className="heder__optionTwo">Signin</span>
-        </div>
+        <Link to="/login">
+          <div className="header__option">
+            <span className="header__optionOne">Hello</span>
+            <span className="heder__optionTwo">Signin</span>
+          </div>
+        </Link>
         <div className="header__option">
           <span className="header__optionOne">Returns</span>
           <span className="heder__optionTwo">& Orders</span>
