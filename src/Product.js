@@ -6,7 +6,6 @@ function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
-    console.log("this is the", basket);
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
